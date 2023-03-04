@@ -1,0 +1,52 @@
+body{
+    background-color: #191825;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #FFA3FD;
+}
+p{
+    color: #FFA3FD;
+}
+li{
+    color: white;
+    list-style-type: none;
+    margin-right: 1%;
+    margin-top: 2%;
+}
+.kategoriler {
+    text-align: center;
+    margin: auto;
+    margin-top: 6px;
+    color: #FFA3FD;
+    list-style-type:disc;
+    list-style-position: inside
+}
+.rounded-border{
+  border-radius: 15px;
+  background: whitesmoke;
+  padding: 20px;
+  width: 200px;
+  height: 150px;
+}
+.ortali-paragraf{
+    margin-left: 7%;
+    font-size: larger;
+}
+.resimler {
+    display: flex;
+    flex-wrap: wrap;
+    
+    margin-left: 10px;
+    margin-right: 10px; /* sağ taraftaki boşluğu ayarlamak için */
+    margin-bottom: 10px; /* alttaki boşluğu ayarlamak için */
+}
+.container-item{
+    text-align: center;
+    margin-top: 12px;
+    margin-left: 15px;
+    margin-right: 145px;
+
+}
+.container-item h1{
+    font-size: 25px;
+}
